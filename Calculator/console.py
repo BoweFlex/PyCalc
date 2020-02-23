@@ -18,7 +18,7 @@ class ConsoleInput:
     @staticmethod
     def get_user_input() -> str:
         inputStr = input("Enter whatever you'd like to calculate (Enter \"quit\" to exit): ")
-        return inputStr.strip() 
+        return inputStr.strip().lower() 
     
     @staticmethod
     def get_further_input() -> str:
